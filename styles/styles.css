@@ -1,0 +1,662 @@
+#first {
+	background:url('../img/puckered.png') 100% 0 no-repeat fixed;
+	background-size: cover;
+	position: ;
+}
+
+header {
+	text-align:center;
+	font-size: 7.5em;
+	color: white;
+	text-shadow: .375em .375em .375em black;
+	font-family: 'Covered By Your Grace', cursive;
+	margin: 0 auto;
+	margin-top: 1.5em;
+}
+
+.story {
+	padding: 0 0 5em 0; 
+	margin: 0; 
+	width: 100%;
+	position: relative; 
+	margin: 0 auto; 
+	height: 1600px;
+	border-top: .25em solid rgba(255,255,255,0.3);
+	border-bottom: .13em solid rgba(0,0,0,0.4);
+	box-shadow: 1.88em 1.88em 1.88em rgba(0,0,0,0.8);
+}
+
+h3 {
+	color: white;
+	text-shadow: .375em .375em .19em black;
+	font-size: 3.75em;
+	font-family: 'Covered By Your Grace', cursive;
+	margin: 0 auto;
+	padding: .8em;
+	text-align: center;
+}
+
+.logo {
+	width: 18.75em;
+	height: 18.5625em;
+	border-radius: 9.375em;
+	-webkit-border-radius: 9.375em;
+	-moz-border-radius: 9.375em;
+	background: url('../img/bear.jpg') 10% no-repeat;
+	margin: 0 auto;
+	margin-top: 3.125em;
+	box-shadow: .63em .63em .63em black;
+}
+
+.logo img {
+	opacity: 0.9;
+	filter: alpha(opacity=0);
+}
+
+#second {
+	background:url('../img/raincity.jpg') 100% 0 no-repeat fixed;
+	background-size: cover;
+	position: ;
+}
+
+.bio {
+	margin-top: 16.5em;
+	position: relative;
+}
+
+article {
+	color: black;
+	font-size: 5em;
+	text-shadow: 2px 1px 33px orange;
+	font-family: 'Covered By Your Grace', cursive;
+	border: white solid;
+	margin: 0 auto;
+	background: white;
+	opacity: 0.7;
+	border-radius: 20px;
+	text-align: center;
+	height: 800px;
+	width: 53%;
+	box-shadow: 6px 6px 6px black;
+}
+
+article li {
+	font-size: 28px;
+	padding: 10px;
+	z-index: 1;
+}
+
+h2 {
+	text-shadow: 2px 2px 2px white;
+	font-size: .75em;
+	padding: 20px;
+}
+
+article a {
+	text-decoration: none;
+}
+
+#third {
+	background:url('../img/background3.jpg') 100% 0 no-repeat fixed;
+	background-size: cover;
+	border-top: 4px solid rgba(255,255,255,0.3);
+	border-bottom: 2px solid rgba(0,0,0,0.4);
+	box-shadow: 30px 30px 30px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	text-shadow: 6px 6px 6px black;
+	position: static;
+}
+
+#third h1 {
+	margin-top: 100px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 80px;
+	text-shadow: 6px 6px 6px black;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+#third h2 {
+	margin-top: 200px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	text-shadow: 6px 6px 6px black;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+#gallery{
+background-color:#111;
+font-size:0;
+width: 100%;
+margin:0 auto;
+margin-top: 50px;
+}
+#gallery figure{
+margin:0;
+width:20%;
+height:auto;
+/*transition*/
+-webkit-transition:1s;
+   -moz-transition:1s;
+     -o-transition:1s;
+        transition:1s;
+display:inline-block;
+position:relative;
+}
+#gallery figure img{
+width:100%;
+height:auto;
+}
+
+#gallery figure:nth-child(1){
+/*transform-origin*/
+-webkit-transform-origin: 0% 0%;
+   -moz-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+     -o-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+}
+#gallery figure:nth-child(2){
+/*transform-origin*/
+-webkit-transform-origin: 25% 0%;
+   -moz-transform-origin: 25% 0%;
+    -ms-transform-origin: 25% 0%;
+     -o-transform-origin: 25% 0%;
+        transform-origin: 25% 0%;
+}
+#gallery figure:nth-child(3){
+/*transform-origin*/
+-webkit-transform-origin: 50% 0%;
+   -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+     -o-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+}
+#gallery figure:nth-child(4){
+/*transform-origin*/
+-webkit-transform-origin:75% 0%;
+   -moz-transform-origin:75% 0%;
+    -ms-transform-origin:75% 0%;
+     -o-transform-origin:75% 0%;
+        transform-origin:75% 0%;
+}
+#gallery figure:nth-child(5){
+/*transform-origin*/
+-webkit-transform-origin:100% 0%;
+   -moz-transform-origin:100% 0%;
+    -ms-transform-origin:100% 0%;
+     -o-transform-origin:100% 0%;
+        transform-origin:100% 0%;
+}
+#gallery figure:nth-child(6){
+/*transform-origin*/
+-webkit-transform-origin:0% 25%;
+   -moz-transform-origin:0% 25%;
+    -ms-transform-origin:0% 25%;
+     -o-transform-origin:0% 25%;
+        transform-origin:0% 25%;
+}
+#gallery figure:nth-child(7){
+/*transform-origin*/
+-webkit-transform-origin:25% 26%;
+   -moz-transform-origin:25% 26%;
+    -ms-transform-origin:25% 26%;
+     -o-transform-origin:25% 26%;
+        transform-origin:25% 26%;
+}
+#gallery figure:nth-child(8){
+/*transform-origin*/
+-webkit-transform-origin:50% 25%;
+   -moz-transform-origin:50% 25%;
+    -ms-transform-origin:50% 25%;
+     -o-transform-origin:50% 25%;
+        transform-origin:50% 25%;
+}
+#gallery figure:nth-child(9){
+/*transform-origin*/
+-webkit-transform-origin:75% 26%;
+   -moz-transform-origin:75% 26%;
+    -ms-transform-origin:75% 26%;
+     -o-transform-origin:75% 26%;
+        transform-origin:75% 26%;
+}
+#gallery figure:nth-child(10){
+/*transform-origin*/
+-webkit-transform-origin:100% 26%;
+   -moz-transform-origin:100% 26%;
+    -ms-transform-origin:100% 26%;
+     -o-transform-origin:100% 26%;
+        transform-origin:100% 26%;
+}
+#gallery figure:nth-child(11){
+/*transform-origin*/
+-webkit-transform-origin:0% 51%;
+   -moz-transform-origin:0% 51%;
+    -ms-transform-origin:0% 51%;
+     -o-transform-origin:0% 51%;
+        transform-origin:0% 51%;
+}
+#gallery figure:nth-child(12){
+/*transform-origin*/
+-webkit-transform-origin:25% 50%;
+   -moz-transform-origin:25% 50%;
+    -ms-transform-origin:25% 50%;
+     -o-transform-origin:25% 50%;
+        transform-origin:25% 50%;
+}
+#gallery figure:nth-child(13){
+/*transform-origin*/
+-webkit-transform-origin:50% 50%;
+   -moz-transform-origin:50% 50%;
+    -ms-transform-origin:50% 50%;
+     -o-transform-origin:50% 50%;
+        transform-origin:50% 50%;
+}
+#gallery figure:nth-child(14){
+/*transform-origin*/
+-webkit-transform-origin:75% 50%;
+   -moz-transform-origin:75% 50%;
+    -ms-transform-origin:75% 50%;
+     -o-transform-origin:75% 50%;
+        transform-origin:75% 50%;
+}
+#gallery figure:nth-child(15){
+/*transform-origin*/
+-webkit-transform-origin:100% 50%;
+   -moz-transform-origin:100% 50%;
+    -ms-transform-origin:100% 50%;
+     -o-transform-origin:100% 50%;
+        transform-origin:100% 50%;
+}
+#gallery figure:nth-child(16){
+/*transform-origin*/
+-webkit-transform-origin:0% 75%;
+   -moz-transform-origin:0% 75%;
+    -ms-transform-origin:0% 75%;
+     -o-transform-origin:0% 75%;
+        transform-origin:0% 75%;
+}
+
+#gallery figure:nth-child(17){
+/*transform-origin*/
+-webkit-transform-origin:25% 75%;
+   -moz-transform-origin:25% 75%;
+    -ms-transform-origin:25% 75%;
+     -o-transform-origin:25% 75%;
+        transform-origin:25% 75%;
+}
+
+#gallery figure:nth-child(18){
+/*transform-origin*/
+-webkit-transform-origin:50% 75%;
+   -moz-transform-origin:50% 75%;
+    -ms-transform-origin:50% 75%;
+     -o-transform-origin:50% 75%;
+        transform-origin:50% 75%;
+}
+
+#gallery figure:nth-child(19){
+/*transform-origin*/
+-webkit-transform-origin:75% 75%;
+   -moz-transform-origin:75% 75%;
+    -ms-transform-origin:75% 75%;
+     -o-transform-origin:75% 75%;
+        transform-origin:75% 75%;
+}
+
+#gallery figure:nth-child(20){
+/*transform-origin*/
+-webkit-transform-origin:100% 75%;
+   -moz-transform-origin:100% 75%;
+    -ms-transform-origin:100% 75%;
+     -o-transform-origin:100% 75%;
+        transform-origin:100% 75%;
+}
+#gallery figure figcaption{
+margin:0;
+opacity:0;
+background:rgba(0,0,0,0.3);
+color:#fff;
+font-size: 10px;
+text-shadow: 1px 1px 1px black;
+font-family: 'Covered By Your Grace', cursive;
+position:absolute;
+bottom:0;
+width:100%;
+height: 15px;
+line-height: 15px;
+text-align: center;
+/*transition*/
+-webkit-transition:1s 1s opacity;
+   -moz-transition:1s 1s opacity;
+     -o-transition:1s 1s opacity;
+        transition:1s 1s opacity;
+}
+.expanded{
+/*transform*/
+-webkit-transform:scale(5);
+   -moz-transform:scale(5);
+    -ms-transform:scale(5);
+     -o-transform:scale(5);
+        transform:scale(5);
+z-index:5;
+}
+#gallery figure.expanded figcaption{
+opacity:1;
+}
+.full figure:not(.expanded){
+pointer-events:none;
+}
+#gallery figure:hover{
+cursor:pointer;
+z-index:4;
+}
+
+.githublogo{
+	padding: 40px;
+	margin: 0 auto;
+}
+.control-link {
+	z-index: 1;
+	width: 62px;
+	height:61px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 120px;
+	background: url('../img/gh-icon.png');
+	display: block;	
+}
+
+a.control-link:hover {
+	background: url('../img/gh-iconred.png');	
+	width: 62px;
+	height: 61px;
+}
+		
+#fourth {
+		background:url('../img/wood.png') 100% 0 repeat fixed;
+		background-size: cover;
+		opacity: 0.9;
+		border-top: 4px solid rgba(255,255,255,0.3);
+		border-bottom: 2px solid rgba(0,0,0,0.4);
+		box-shadow: 30px 30px 30px rgba(0,0,0,0.8);	
+		position: static;
+}
+
+#fourth h1 {
+		font-family: 'Covered By Your Grace', cursive;
+		text-align: center;
+		color: white;
+		text-shadow: 7px 7px 7px black;
+		padding: 48px;
+		margin-top:270px;
+		font-size: 100px;
+}
+
+
+.logo4 {
+		width: 300px;
+		height: 297px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url('../img/city.jpg') 100% no-repeat;
+		margin: 0 auto;
+	    box-shadow: 5px 5px 5px black;
+}
+
+.logo4 img {
+		opacity: 0.5;
+		filter: alpha(opacity=0.9);
+
+}
+	
+.linkedin { 
+	background: url('../img/linkedin.png');
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: border-box;
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 20px;	
+}
+
+.twitter {
+		background:url('../img/twit.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-clip: border-box;
+		transition: background-size 0.2s;
+		-webkit-transition: background-size 0.2s;
+		transition-timing-function: cubic-bezier(.07, 1.41, .82, 1.41);
+		display: inline-block;
+		width: 82px;
+		height: 82px;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 20px;	
+}
+
+.github {
+		background:url('../img/git.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-clip: border-box;
+		transition: background-size 0.2s;
+		-webkit-transition: background-size 0.2s;
+		transition-timing-function: cubic-bezier(.07, 1.41, .82, 1.41);
+		display: inline-block;
+		width: 82px;
+		height: 82px;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 20px;	
+	
+}
+
+.phone {
+		background:url('../img/phone.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-clip: border-box;
+		transition: background-size 0.2s;
+		-webkit-transition: background-size 0.2s;
+		transition-timing-function: cubic-bezier(.07, 1.41, .82, 1.41);
+		display: inline-block;
+		width: 82px;
+		height: 82px;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 20px;	
+}
+
+.instagram {
+		background:url('../img/instagram.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-clip: border-box;
+		transition: background-size 0.2s;
+		-webkit-transition: background-size 0.2s;
+		transition-timing-function: cubic-bezier(.07, 1.41, .82, 1.41);
+		display: inline-block;
+		width: 82px;
+		height: 82px;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 20px;	
+}
+	
+.email {
+		background:url('../img/mail copy.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-clip: border-box;
+		transition: background-size 0.2s;
+		-webkit-transition: background-size 0.2s;
+		transition-timing-function: cubic-bezier(.07, 1.41, .82, 1.41);
+		display: inline-block;
+		width: 82px;
+		height: 82px;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 20px;	
+	}
+
+	
+.social {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.linkedin:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+		
+}
+.twitter:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+		
+}
+.github:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+}
+.email:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+		
+}
+.instagram:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+		}
+
+.phone:hover{
+		opacity: 1;
+		background-size: 80px;
+		border-radius: 2px;
+		
+}
+
+footer{
+		font-family: 'Covered By Your Grace', cursive;
+		color: white;
+		font-size: 32px;
+		text-shadow: 7px 7px 7px black;
+		text-align: center;	
+		padding: 20px;
+		line-height: 120px;
+}
+	
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation : landscape){
+		body{
+			max-width: 100%;
+		}
+		
+		.social{
+			margin: 0 auto;
+			margin-top: 100px;
+			width: 84%;
+			text-align:center;
+				}
+		.linkedin, .twitter, .phone, .instagram, .email, .github {
+					padding: 0;
+				}
+		
+}
+
+@media screen and (min-width: 565px) and (max-width: 768px){
+
+	
+	article{
+		height: 945px;
+		padding: 15px;
+	}
+	
+	.social{
+		margin: 0 auto;
+		margin-top: 100px;
+		width: 100%;
+		text-align:center;
+		}
+		
+	.linkedin, .twitter, .phone, .instagram, .email, .github {
+				padding: 0;
+			}
+}
+@media screen and (min-width: 467px) and (max-width: 565px){
+	
+	 article{
+		height: 1000px;
+		padding: 10px;
+	}
+	.social{
+		margin: 0 auto;
+		margin-top: 100px;
+		width: 85%;
+		text-align:center;
+			}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 466px){
+		#first, #second, #third, #fourth {
+			background-size: cover;
+		}
+	
+		.social{
+			margin: 0 auto;
+			margin-top: 120px;
+			text-align:center;
+			width: 80%;
+		}
+		
+		.linkedin, .twitter, .phone, .instagram, .email, .github {
+			padding: 0;
+		}
+		.logo4{
+			margin: 0 auto;
+			margin-top: 100px;
+		}
+
+	 	#fourth h1{
+			margin-top: 120px;
+			font-size: 47px;
+		}
+		article{
+			padding: 10px;
+			height: 1150px;
+		}
+	
+		article li{
+			font-size: 26px;
+			padding: 10px;
+		
+		
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
